@@ -1,53 +1,88 @@
+# 📰 Indian Express News Clone
 
-# INDIA EXPRESS WEBSITE CLONE
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
+  <img src="https://img.shields.io/badge/REST%20API-0A7EA4?style=for-the-badge" alt="REST">
+</p>
 
+A responsive clone of **The Indian Express** news website, featuring live API-powered content delivery, dynamic article loading, and coverage of global affairs across politics, business, sports, entertainment, and more.
 
+## 🌐 Live Demo
 
+**👉 [https://farheen-clr.github.io/Indian-Express-clone/](https://farheen-clr.github.io/Indian-Express-clone/)**
 
+## 📸 Preview
 
-## Table of Content
+> Home page with top headlines, breaking news banner, and category sections
+> Section pages: Politics, Business, Sports, Entertainment, Opinion
+> Article detail pages with related stories and share controls
 
-- About the project
-- Screenshots
-- Demo
-- Technologies
-- Status
+## ✨ Features
 
+- 📡 **Live News API Integration** — Dynamic content loading from REST API
+- 🗞️ **Multi-Category Coverage** — Politics, Business, Sports, Entertainment, Opinion, World
+- 📱 **Responsive Design** — Perfect layout on mobile, tablet, and desktop
+- 🎨 **Newspaper-Style UI** — Faithful recreation of the Indian Express look & feel
+- ⚡ **Dynamic Article Loading** — Pagination and infinite scroll for article feeds
+- 🔍 **Search Functionality** — Search across articles and categories
+- 🌙 **Clean Typography** — Readable, newspaper-quality layout
 
-## About the project
+## 🛠️ Tech Stack
 
-This project is clone of well known website known as Indian Express builded by us. The purpose of building this project is only and only for educational purposes. All copyrights are reserved by Indian Express. We hereby declare that we will not use this for any bad purposes. Thank You!
-## Screenshots
+| Layer | Technology |
+|---|---|
+| Markup | HTML5 |
+| Styling | CSS3 (Grid, Flexbox, custom fonts) |
+| Logic | Vanilla JavaScript (ES6+, Fetch API) |
+| Data | Live News REST API |
+| Hosting | GitHub Pages |
 
-[![ieupdated1.jpg](https://i.postimg.cc/TPzQP1Mq/ieupdated1.jpg)](https://postimg.cc/t1zFSXgY)
+## 🚀 Run Locally
 
-[![ieupdated11.jpg](https://i.postimg.cc/pLFHT0pw/ieupdated11.jpg)](https://postimg.cc/sMs8H4Pm)
+```bash
+git clone https://github.com/Farheen-CLR/Indian-Express-clone.git
+cd Indian-Express-clone
 
-[![indian-express-clone-4.png](https://i.postimg.cc/TPQGgbJb/indian-express-clone-4.png)](https://postimg.cc/v11pdcj8)
+# Open index.html in browser
+# OR serve with a local HTTP server:
+python3 -m http.server 8000
+# Then open http://localhost:8000
+```
 
-[![indian-express-clone-6.png](https://i.postimg.cc/T3JhNpcd/indian-express-clone-6.png)](https://postimg.cc/gxrYnc5Q)
+## 👩‍💻 My Contributions
 
-[![indian-express-clone-7.png](https://i.postimg.cc/rpysBMhS/indian-express-clone-7.png)](https://postimg.cc/YvVtgKB9)
+- Built section pages for **Politics** and **Sports** categories
+- Implemented API integration for dynamic news feed loading
+- Designed responsive article cards with CSS Grid
+- Handled cross-browser compatibility and layout edge cases
 
-[![ieupdated2.jpg](https://i.postimg.cc/DZshWSW2/ieupdated2.jpg)](https://postimg.cc/KkZwwvrV)
+## 🌟 Project Structure
 
-[![ieupdated3.jpg](https://i.postimg.cc/xT1Zhk0c/ieupdated3.jpg)](https://postimg.cc/bd4L2wSh)
+```
+Indian-Express-clone/
+├── index.html            # Home page
+├── sections/             # Category pages (politics, sports, etc.)
+├── article/              # Article detail template
+├── css/                  # Stylesheets
+├── js/                   # Fetch logic and UI handlers
+└── assets/               # Logos, images
+```
 
-[![ieupdated4.jpg](https://i.postimg.cc/nzTkGk9T/ieupdated4.jpg)](https://postimg.cc/CBBkFbNf)
-## Demo
+## 📚 Learning Outcomes
 
-deployed link for demo:- https://astounding-froyo-9f44a4.netlify.app/
+- Integrating third-party REST APIs with Fetch API
+- Building content-heavy layouts with CSS Grid
+- Managing asynchronous data flows in vanilla JS
+- Cross-browser responsive design patterns
 
+## 🔗 Links
 
-## Technologies
+- 🌐 **Live Demo:** [https://farheen-clr.github.io/Indian-Express-clone/](https://farheen-clr.github.io/Indian-Express-clone/)
+- 📁 **GitHub Repo:** [https://github.com/Farheen-CLR/Indian-Express-clone](https://github.com/Farheen-CLR/Indian-Express-clone)
+- 👤 **Author:** [Farheen Ali](https://github.com/Farheen-CLR) · [LinkedIn](https://www.linkedin.com/in/farheen-ali-802898233) · [Portfolio](https://farheen-clr.github.io/portfolio/)
 
-- HTML
-- CSS
-- JavaScript
-- API
-## Status
+---
 
-This project is completed. 
-## Final Words
-
-Thank you for staying with me up to this point. Suggestions and feedbacks are always welcomed.😃
+<p align="center"><i>Collaborative news-website clone project executed over a focused sprint during Masai School Full Stack curriculum.</i></p>
